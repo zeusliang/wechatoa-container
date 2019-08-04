@@ -1,0 +1,3 @@
+[submodule "share/wx"]
+	path = share/wx
+	url = https://github.com/zeusliang/wechat-dev-sample.git

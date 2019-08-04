@@ -1,0 +1,24 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+a=yyh
+b=yy
+c=2yy
+
+echo 'a:'$a
+echo 'b:'$b
+echo 'c:'$c
+
+if [[ ${a} =~ ${c} ]]
+then
+   echo 'a contain c of part is yy'
+else
+   echo 'a not caontain c'
+fi
+
+
+if [[ ${a} =~ ${b} ]]
+then
+	echo 'a contain b of part is yy'
+else
+	echo 'a not contain b'
+fi
